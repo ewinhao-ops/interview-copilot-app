@@ -1,0 +1,26 @@
+node_modules
+dist
+release
+.DS_Store
+*.log
+.env
+.env.local
+
+# 预约接口本地持久化(仅 dev)
+.dev-data/
+
+# SQLite 数据库与备份(改造后,数据放服务器本地,不入库)
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+/data/
+/backups/
+
+# 一次性迁移源数据(含候选人 PII,不入库)
+/migration-source/
+
+# 运行/迁移输出,可能包含候选人信息或第三方平台响应
+/outputs/

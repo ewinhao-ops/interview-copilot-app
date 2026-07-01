@@ -1,0 +1,13 @@
+node_modules
+dist
+release
+.dev-data
+data
+backups
+migration-source
+outputs
+.git
+.env
+.env.local
+*.log
+.DS_Store

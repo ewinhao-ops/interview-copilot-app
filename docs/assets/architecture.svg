@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="360" viewBox="0 0 1120 360" role="img" aria-labelledby="title desc">
+  <title id="title">面试工作台系统架构</title>
+  <desc id="desc">管理后台、候选人页面和外部入库请求进入 Fastify 后端，后端连接 SQLite、AI 模型、语音转写、对象存储和飞书过渡集成。</desc>
+  <rect width="1120" height="360" fill="#f7f8fb"/>
+  <text x="56" y="58" fill="#111827" font-family="Arial, sans-serif" font-size="30" font-weight="700">系统架构</text>
+  <g font-family="Arial, sans-serif" font-size="15">
+    <g transform="translate(70 110)">
+      <rect width="210" height="58" rx="10" fill="#ffffff" stroke="#d9dee8"/>
+      <text x="105" y="35" text-anchor="middle" fill="#111827" font-weight="700">管理后台</text>
+      <rect y="82" width="210" height="58" rx="10" fill="#ffffff" stroke="#d9dee8"/>
+      <text x="105" y="117" text-anchor="middle" fill="#111827" font-weight="700">候选人公开页</text>
+      <rect y="164" width="210" height="58" rx="10" fill="#ffffff" stroke="#d9dee8"/>
+      <text x="105" y="199" text-anchor="middle" fill="#111827" font-weight="700">BOSS 自动化入库</text>
+    </g>
+    <path d="M300 139h115" stroke="#7c8aa5" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M300 221h115" stroke="#7c8aa5" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M300 303h115" stroke="#7c8aa5" stroke-width="2" marker-end="url(#arrow)"/>
+    <g transform="translate(430 118)">
+      <rect width="260" height="178" rx="14" fill="#111827"/>
+      <text x="130" y="47" text-anchor="middle" fill="#ffffff" font-size="22" font-weight="700">Fastify 单后端</text>
+      <text x="130" y="82" text-anchor="middle" fill="#d1d5db">鉴权 / API / 调度任务</text>
+      <text x="130" y="112" text-anchor="middle" fill="#d1d5db">招聘流程状态机</text>
+      <text x="130" y="142" text-anchor="middle" fill="#d1d5db">AI 服务编排</text>
+    </g>
+    <path d="M705 155h85" stroke="#7c8aa5" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M705 195h85" stroke="#7c8aa5" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M705 235h85" stroke="#7c8aa5" stroke-width="2" marker-end="url(#arrow)"/>
+    <g transform="translate(810 92)">
+      <rect width="240" height="52" rx="10" fill="#ffffff" stroke="#d9dee8"/>
+      <text x="120" y="33" text-anchor="middle" fill="#111827" font-weight="700">SQLite + 备份</text>
+      <rect y="70" width="240" height="52" rx="10" fill="#ffffff" stroke="#d9dee8"/>
+      <text x="120" y="103" text-anchor="middle" fill="#111827" font-weight="700">LLM 评估与报告</text>
+      <rect y="140" width="240" height="52" rx="10" fill="#ffffff" stroke="#d9dee8"/>
+      <text x="120" y="173" text-anchor="middle" fill="#111827" font-weight="700">DashScope 转写</text>
+      <rect y="210" width="240" height="52" rx="10" fill="#ffffff" stroke="#d9dee8"/>
+      <text x="120" y="243" text-anchor="middle" fill="#111827" font-weight="700">COS / 飞书过渡集成</text>
+    </g>
+  </g>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#7c8aa5"/>
+    </marker>
+  </defs>
+</svg>

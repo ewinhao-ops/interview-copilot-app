@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="300" viewBox="0 0 1120 300" role="img" aria-labelledby="title desc">
+  <title id="title">面试工作台招聘流程</title>
+  <desc id="desc">候选人从入库到 AI 初筛、异步面试、真人二面、结果反馈和数据沉淀的流程图。</desc>
+  <rect width="1120" height="300" fill="#f7f8fb"/>
+  <text x="56" y="62" fill="#111827" font-family="Arial, sans-serif" font-size="30" font-weight="700">AI 招聘漏斗</text>
+  <text x="56" y="96" fill="#4b5563" font-family="Arial, sans-serif" font-size="16">从简历入库到结果反馈，所有动作在同一个工作台闭环</text>
+  <g font-family="Arial, sans-serif">
+    <g transform="translate(56 140)">
+      <rect width="160" height="96" rx="10" fill="#ffffff" stroke="#d9dee8"/>
+      <text x="80" y="40" text-anchor="middle" fill="#111827" font-size="18" font-weight="700">候选人入库</text>
+      <text x="80" y="68" text-anchor="middle" fill="#6b7280" font-size="13">BOSS / 简历 / 附件</text>
+    </g>
+    <path d="M232 188h54" stroke="#7c8aa5" stroke-width="2" marker-end="url(#arrow)"/>
+    <g transform="translate(302 140)">
+      <rect width="160" height="96" rx="10" fill="#ffffff" stroke="#d9dee8"/>
+      <text x="80" y="40" text-anchor="middle" fill="#111827" font-size="18" font-weight="700">AI 初筛</text>
+      <text x="80" y="68" text-anchor="middle" fill="#6b7280" font-size="13">评级 / 风险 / 题目</text>
+    </g>
+    <path d="M478 188h54" stroke="#7c8aa5" stroke-width="2" marker-end="url(#arrow)"/>
+    <g transform="translate(548 140)">
+      <rect width="160" height="96" rx="10" fill="#ffffff" stroke="#d9dee8"/>
+      <text x="80" y="40" text-anchor="middle" fill="#111827" font-size="18" font-weight="700">异步面试</text>
+      <text x="80" y="68" text-anchor="middle" fill="#6b7280" font-size="13">录音 / 转写 / 评估</text>
+    </g>
+    <path d="M724 188h54" stroke="#7c8aa5" stroke-width="2" marker-end="url(#arrow)"/>
+    <g transform="translate(794 140)">
+      <rect width="160" height="96" rx="10" fill="#ffffff" stroke="#d9dee8"/>
+      <text x="80" y="40" text-anchor="middle" fill="#111827" font-size="18" font-weight="700">真人二面</text>
+      <text x="80" y="68" text-anchor="middle" fill="#6b7280" font-size="13">预约 / 复核 / 结论</text>
+    </g>
+    <path d="M970 188h42" stroke="#7c8aa5" stroke-width="2" marker-end="url(#arrow)"/>
+    <g transform="translate(1018 140)">
+      <rect width="58" height="96" rx="10" fill="#111827"/>
+      <text x="29" y="37" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="700">反馈</text>
+      <text x="29" y="65" text-anchor="middle" fill="#d1d5db" font-size="12">沉淀</text>
+    </g>
+  </g>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#7c8aa5"/>
+    </marker>
+  </defs>
+</svg>
